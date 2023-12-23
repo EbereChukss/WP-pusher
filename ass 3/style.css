@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(239, 242, 245);
+  margin-bottom: 3rem;
+}
+.nav {
+  display: flex;
+}
+.logo_div {
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+}
+.div_a {
+  margin-left: 28rem;
+  margin-top: 2rem;
+}
+.div_a a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+}
+.div_a a button {
+  padding: 0.8rem 1.7rem;
+  border-radius: 5px;
+}
+.dash {
+  width: 91%;
+  height: 2px;
+  background-color: hsla(204, 18%, 90%, 1);
+  margin: 1.5rem 3.3rem;
+}
+.box_div {
+  display: flex;
+  margin-left: 10%;
+  width: 80%;
+  background-color: #fff;
+  gap: 2rem;
+}
+.div_box1 {
+  width: 80%;
+  padding: 2rem;
+}
+.checkout_p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.forms {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.forms div {
+  line-height: 2rem;
+}
+.forms div input {
+  width: 13rem;
+  height: 2rem;
+  padding: 5px;
+  font-size: 10px;
+  background: hsla(216, 16%, 94%, 1);
+  border: none;
+  border-radius: 4px;
+}
+.forms div input[type="email"] {
+  width: 25rem;
+}
+.dash_form{
+    width: 100%;
+  height: 2px;
+  background-color: hsla(204, 18%, 90%, 1);
+  margin: 2rem 0 2rem 0;
+}
+.credit_card {
+  margin-top: 2rem;
+  line-height: 2rem;
+}
+.credit_card input {
+  width: 30rem;
+  height: 2rem;
+  background: hsla(216, 16%, 94%, 1);
+  border: none;
+  border-radius: 4px;
+}
+.pusher_btn {
+  background-color: hsla(173, 96%, 28%, 1);
+  width: 30rem;
+  height: 2rem;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+}
+.help_p {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 2rem;
+}
+.img_div {
+  text-align: center;
+  margin-top: 1rem;
+}
+.div_box2 {
+  background-color: hsla(204, 84%, 41%, 1);
+}
+.free_div {
+  padding: 2rem;
+  line-height: 2rem;
+  color: #fff;
+}
+.free_p{
+    font-size: 20px;
+}
+.dollar_span {
+  margin-top: 1rem;
+}
+.dollar_span span {
+  font-size: 40px;
+  font-weight: 100;
+}
+.auto {
+  margin-top: 1rem;
+  font-style: italic;
+  font-size: 13px;
+}
+.check_div {
+  margin-top: 1.5rem;
+  font-size: 13px;
+}
+.div_need {
+  margin-top: 1rem;
+  font-size: 13px;
+}
+.dash2 {
+  background: hsla(189, 100%, 86%, 1);
+  width: 100%;
+  height: 2px;
+  margin-top: 2rem;
+}
+.ftp_div {
+  margin-top: 2rem;
+  font-style: italic;
+}
+.kirk_img {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.ftp_div span {
+  font-weight: bold;
+}
+.copyright{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 10px;
+    color: hsla(200, 6%, 41%, 1);
+}
+.copyright span {
+    color: hsla(200, 49%, 38%, 1);
+}
